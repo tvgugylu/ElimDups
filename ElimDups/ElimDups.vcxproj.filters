@@ -38,7 +38,7 @@
     <ClCompile Include="ElimDups.cpp_old3">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ElimDups.cpp">
+    <ClCompile Include="ElimDups.cpp_old4">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

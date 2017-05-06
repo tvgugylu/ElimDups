@@ -149,7 +149,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ElimDups.cpp" />
+    <ClCompile Include="ElimDups.cpp_old4" />
     <ClCompile Include="ElimDups.cpp_old3" />
     <ClCompile Include="ElimDups.cpp_old2" />
     <ClCompile Include="ElimDups.cpp_old" />
