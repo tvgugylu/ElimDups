@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9C58687D-DC23-42D2-B7AA-B0EA27A7D559}</ProjectGuid>
+    <ProjectGuid>{C8678428-A2D8-4CBB-84DC-3B84206F6519}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ElimDups</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -149,6 +149,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ElimDups.cpp" />
     <ClCompile Include="ElimDups.cpp_old3" />
     <ClCompile Include="ElimDups.cpp_old2" />
     <ClCompile Include="ElimDups.cpp_old" />
@@ -158,7 +159,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="ElimDups.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
