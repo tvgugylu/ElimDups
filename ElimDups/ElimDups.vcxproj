@@ -149,10 +149,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ElimDups.cpp_old4" />
-    <ClCompile Include="ElimDups.cpp_old3" />
-    <ClCompile Include="ElimDups.cpp_old2" />
-    <ClCompile Include="ElimDups.cpp_old" />
+    <ClCompile Include="ElimDups.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -161,7 +158,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <None Include="ElimDups.cpp_old" />
+    <None Include="ElimDups.cpp_old2" />
+    <None Include="ElimDups.cpp_old3" />
+    <None Include="ElimDups.cpp_old4" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
